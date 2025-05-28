@@ -1,0 +1,148 @@
+{
+  "metadata": {
+    "title": "BuildMaster Construction - Built by Ebtkar Tech",
+    "description": "Professional construction services with a focus on quality and innovation. Website developed by الإبتكار التقني (Ebtak Tqni)"
+  },
+  "navigation": {
+    "home": "Home",
+    "projects": "Projects",
+    "services": "Services",
+    "timeline": "Timeline",
+    "quote": "Request Quote",
+    "contact": "Contact Us"
+  },
+  "home": {
+    "hero": {
+      "title": "Building Tomorrow's World Today",
+      "subtitle": "Excellence in Construction Since 1995",
+      "cta": "Explore Our Projects"
+    },
+    "about": {
+      "title": "About BuildMaster",
+      "description": "BuildMaster Construction is a leading construction company with over 25 years of experience delivering exceptional projects across residential, commercial, and industrial sectors. Our commitment to quality, innovation, and client satisfaction has made us the preferred choice for construction services.",
+      "values": [
+        {
+          "title": "Quality",
+          "description": "We never compromise on the quality of our work"
+        },
+        {
+          "title": "Innovation",
+          "description": "Embracing new technologies and methods"
+        },
+        {
+          "title": "Reliability",
+          "description": "Delivering projects on time and within budget"
+        }
+      ]
+    },
+    "services": {
+      "title": "Our Services",
+      "description": "Comprehensive construction solutions tailored to your needs",
+      "cta": "View All Services"
+    },
+    "timeline": {
+      "title": "Project Timeline",
+      "description": "Track our major projects and milestones",
+      "cta": "View Full Timeline"
+    },
+    "featuredProjects": {
+      "title": "Featured Projects",
+      "description": "Explore some of our most impressive work",
+      "cta": "View All Projects"
+    },
+    "testimonials": {
+      "title": "What Our Clients Say",
+      "description": "Hear from those who have experienced our quality service"
+    },
+    "cta": {
+      "title": "Ready to Start Your Project?",
+      "description": "Contact us today for a free consultation",
+      "button": "Request a Quote"
+    }
+  },
+  "projects": {
+    "title": "Our Projects",
+    "description": "Explore our portfolio of completed and ongoing construction projects",
+    "filters": {
+      "all": "All Projects",
+      "residential": "Residential",
+      "commercial": "Commercial",
+      "industrial": "Industrial",
+      "infrastructure": "Infrastructure"
+    },
+    "details": {
+      "client": "Client",
+      "location": "Location",
+      "duration": "Duration",
+      "category": "Category"
+    }
+  },
+  "services": {
+    "title": "Our Services",
+    "description": "Comprehensive construction solutions for all your needs",
+    "categories": {
+      "residential": "Residential Construction",
+      "commercial": "Commercial Construction",
+      "industrial": "Industrial Construction",
+      "renovation": "Renovation & Remodeling",
+      "design": "Architectural Design",
+      "consultation": "Construction Consultation"
+    }
+  },
+  "timeline": {
+    "title": "Project Timeline",
+    "description": "Track our major projects and milestones over the years",
+    "ongoing": "Ongoing",
+    "completed": "Completed"
+  },
+  "quote": {
+    "title": "Request a Quote",
+    "description": "Fill out the form below to request a quote for your project",
+    "form": {
+      "name": "Full Name",
+      "email": "Email Address",
+      "phone": "Phone Number",
+      "projectType": "Project Type",
+      "description": "Project Description",
+      "attachment": "Upload Attachments",
+      "attachmentHelp": "Upload blueprints, sketches, or any relevant documents (PDF, JPG, PNG)",
+      "submit": "Submit Request",
+      "success": "Your quote request has been submitted successfully. We'll contact you soon!",
+      "error": "There was an error submitting your request. Please try again."
+    }
+  },
+  "contact": {
+    "title": "Contact Us",
+    "description": "Get in touch with our team for inquiries or support",
+    "info": {
+      "address": "Libya, Tripoli",
+      "phone": "+218 92 8666 458",
+      "email": "contact@ebtkar.tech",
+      "hours": "Sunday - Thursday: 9:00 AM - 5:00 PM"
+    },
+    "form": {
+      "name": "Your Name",
+      "email": "Email Address",
+      "subject": "Subject",
+      "message": "Your Message",
+      "submit": "Send Message",
+      "success": "Your message has been sent successfully!",
+      "error": "There was an error sending your message. Please try again."
+    }
+  },
+  "footer": {
+    "company": "BuildMaster Construction",
+    "rights": "All Rights Reserved",
+    "links": {
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Service",
+      "careers": "Careers"
+    },
+    "social": {
+      "facebook": "Facebook",
+      "twitter": "Twitter",
+      "instagram": "Instagram",
+      "linkedin": "LinkedIn"
+    }
+  }
+}
