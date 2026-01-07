@@ -1,7 +1,8 @@
 import Link from "next/link";
-import { Building, Facebook, Instagram, Linkedin, Twitter } from "lucide-react";
+import { Phone } from "lucide-react";
 import type { Locale } from "@/lib/i18n/settings";
 import Image from "next/image";
+import { FaWhatsapp } from "react-icons/fa";
 
 interface FooterProps {
   lang: Locale;
@@ -20,6 +21,18 @@ interface FooterProps {
       linkedin: string;
     };
   };
+}
+
+{
+  /*
+  phones: 
+  0912154284
+
+
+
+WhatsApp 00218917339276
+  
+  */
 }
 
 export function Footer({ lang, dictionary }: FooterProps) {
@@ -99,36 +112,43 @@ export function Footer({ lang, dictionary }: FooterProps) {
 
           <div className="space-y-3">
             <h3 className="font-medium">
-              {lang === "en" ? "Social" : "التواصل الاجتماعي"}
+              {lang === "en" ? "Phone Numbers" : "ارقام التواصل"}
             </h3>
-            <div className="flex space-x-4">
+            <div className="flex items-start flex-col space-x-4">
               <Link
-                href="#"
-                className="text-muted-foreground hover:text-foreground"
+                href="tel:0912154284"
+                className="text-muted-foreground flex gap-2 items-end justify-start flex-row-reverse hover:text-foreground"
               >
-                <span className="sr-only">{dictionary.social.facebook}</span>
-                <Facebook className="h-5 w-5" />
+                <span className="">0912154284</span>
+                <Phone className="h-5 w-5" />
               </Link>
               <Link
-                href="#"
-                className="text-muted-foreground hover:text-foreground"
+                href="tel:0925376902"
+                className="text-muted-foreground flex gap-2 items-end justify-start flex-row-reverse hover:text-foreground"
               >
-                <span className="sr-only">{dictionary.social.twitter}</span>
-                <Twitter className="h-5 w-5" />
+                <span className="">0925376902</span>
+                <Phone className="h-5 w-5" />
+              </Link>{" "}
+              <Link
+                href="tel:0915376902"
+                className="text-muted-foreground flex gap-2 items-end justify-start flex-row-reverse hover:text-foreground"
+              >
+                <span className="">0915376902</span>
+                <Phone className="h-5 w-5" />
               </Link>
               <Link
-                href="#"
-                className="text-muted-foreground hover:text-foreground"
+                href="tel:0924301040"
+                className="text-muted-foreground flex gap-2 items-end justify-start flex-row-reverse hover:text-foreground"
               >
-                <span className="sr-only">{dictionary.social.instagram}</span>
-                <Instagram className="h-5 w-5" />
+                <span className="">0924301040</span>
+                <Phone className="h-5 w-5" />
               </Link>
               <Link
-                href="#"
-                className="text-muted-foreground hover:text-foreground"
+                href="https://wa.me/00218917339276"
+                className="text-muted-foreground flex gap-2 items-end justify-start flex-row-reverse hover:text-foreground"
               >
-                <span className="sr-only">{dictionary.social.linkedin}</span>
-                <Linkedin className="h-5 w-5" />
+                <span className="">00218917339276</span>
+                <FaWhatsapp className="h-5 w-5" />
               </Link>
             </div>
           </div>

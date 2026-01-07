@@ -1,24 +1,24 @@
-"use client"
+"use client";
 
-import { useRef } from "react"
-import Link from "next/link"
-import { motion, useInView } from "framer-motion"
-import { Button } from "@/components/ui/button"
-import type { Locale } from "@/lib/i18n/settings"
+import { useRef } from "react";
+import Link from "next/link";
+import { motion, useInView } from "framer-motion";
+import { Button } from "@/components/ui/button";
+import type { Locale } from "@/lib/i18n/settings";
 
 interface CtaSectionProps {
-  lang: Locale
+  lang: Locale;
   dictionary: {
-    title: string
-    description: string
-    button: string
-  }
+    title: string;
+    description: string;
+    button: string;
+  };
 }
 
 export function CtaSection({ lang, dictionary }: CtaSectionProps) {
-  const ref = useRef(null)
-  const isInView = useInView(ref, { once: true })
-  const isRtl = lang === "ar"
+  const ref = useRef(null);
+  const isInView = useInView(ref, { once: true });
+  const isRtl = lang === "ar";
 
   return (
     <section ref={ref} className="container py-16">
@@ -26,20 +26,28 @@ export function CtaSection({ lang, dictionary }: CtaSectionProps) {
         initial={{ opacity: 0, y: 20 }}
         animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
         transition={{ duration: 0.5 }}
-        className={`bg-primary text-primary-foreground rounded-xl p-12 text-center ${isRtl ? "text-right" : "text-left"}`}
+        className={` p-8 relative text-center ${
+          isRtl ? "text-right" : "text-left"
+        }`}
       >
-        <h2 className="text-3xl font-bold tracking-tight sm:text-4xl text-center">{dictionary.title}</h2>
-        <p className="mt-4 text-lg text-primary-foreground/90 text-center max-w-2xl mx-auto">
-          {dictionary.description}
-        </p>
-        <div className="mt-8 text-center">
-          <Link href={`/${lang}/quote`}>
-            <Button size="lg" variant="secondary" className="text-lg">
-              {dictionary.button}
-            </Button>
-          </Link>
-        </div>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3356.6675133201466!2d12.813753375660356!3d32.721461673686925!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzLCsDQzJzE3LjMiTiAxMsKwNDgnNTguOCJF!5e0!3m2!1sen!2sly!4v1767812841063!5m2!1sen!2sly"
+          width="600"
+          height="450"
+          style={{
+            border: "0",
+            width: "100%",
+            borderRadius: "0.5rem",
+          }}
+          allowFullScreen
+          loading="lazy"
+          referrerPolicy="no-referrer-when-downgrade"
+        ></iframe>
+
+        <Button className="absolute bottom-10 right-1/2 transform translate-x-1/2">
+          {lang === "en" ? "Get Directions" : "احصل على الاتجاهات"}
+        </Button>
       </motion.div>
     </section>
-  )
+  );
 }
