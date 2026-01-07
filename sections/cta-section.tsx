@@ -44,9 +44,16 @@ export function CtaSection({ lang, dictionary }: CtaSectionProps) {
           referrerPolicy="no-referrer-when-downgrade"
         ></iframe>
 
-        <Button className="absolute bottom-10 right-1/2 transform translate-x-1/2">
-          {lang === "en" ? "Get Directions" : "احصل على الاتجاهات"}
-        </Button>
+        <Link
+          href="https://maps.app.goo.gl/y9mVZiLM1A6sgumm8"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          {" "}
+          <Button className="absolute bottom-10 right-1/2 transform translate-x-1/2">
+            {lang === "en" ? "Get Directions" : "احصل على الاتجاهات"}
+          </Button>
+        </Link>
       </motion.div>
     </section>
   );
