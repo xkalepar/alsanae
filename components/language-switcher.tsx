@@ -13,8 +13,8 @@ interface LanguageSwitcherProps {
 
 export function LanguageSwitcher({
   lang,
-  arabicLabel = "غ",
-  englishLabel = "EN",
+  arabicLabel = "عربي",
+  englishLabel = "english",
   size = "sm",
 }: LanguageSwitcherProps) {
   const pathName = usePathname();

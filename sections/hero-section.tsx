@@ -25,7 +25,7 @@ export function HeroSection({ lang, dictionary }: HeroSectionProps) {
     <section className="relative h-[90vh] min-h-[600px] w-full overflow-hidden">
       <div className="absolute inset-0 z-0">
         <Image
-          src="/placeholder.svg?height=1080&width=1920"
+          src="/hero.png"
           alt="Construction site"
           fill
           priority

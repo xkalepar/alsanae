@@ -1,74 +1,74 @@
 {
   "metadata": {
-    "title": "BuildMaster Construction - Built by Ebtkar Tech",
-    "description": "Professional construction services with a focus on quality and innovation. Website developed by الإبتكار التقني (Ebtak Tqni)"
+    "title": "Elssanea Company – Website by Ebtkar Altqni",
+    "description": "Elssanea Company specializes in manufacturing hangars, canopies, and prefabricated houses, with the ability to move factory equipment to the job site for easier on-site production and installation."
   },
   "navigation": {
     "home": "Home",
-    "projects": "Projects",
+    "projects": "Our Work",
     "services": "Services",
-    "timeline": "Timeline",
-    "quote": "Request Quote",
-    "contact": "Contact Us"
+    "timeline": "Company Overview",
+    "quote": "Request a Quote",
+    "contact": "Contact"
   },
   "home": {
     "hero": {
-      "title": "Building Tomorrow's World Today",
-      "subtitle": "Excellence in Construction Since 1995",
-      "cta": "Explore Our Projects"
+      "title": "Elssanea Company",
+      "subtitle": "Hangars • Canopies • Prefabricated Houses",
+      "cta": "View Our Work"
     },
     "about": {
-      "title": "About BuildMaster",
-      "description": "BuildMaster Construction is a leading construction company with over 25 years of experience delivering exceptional projects across residential, commercial, and industrial sectors. Our commitment to quality, innovation, and client satisfaction has made us the preferred choice for construction services.",
+      "title": "About Elssanea",
+      "description": "Elssanea Company was established in 2019 and operates in the manufacturing of hangars, canopies, and prefabricated houses. The company uses specialized metalwork and forming capabilities for curved sheet metal and metal panels. One of our key advantages is the ability to transport factory equipment to the job site—inside or outside Al-Zawiya—making on-site work easier and faster.",
       "values": [
         {
-          "title": "Quality",
-          "description": "We never compromise on the quality of our work"
+          "title": "On-site Production",
+          "description": "We can relocate equipment to the project location for smooth field execution."
         },
         {
-          "title": "Innovation",
-          "description": "Embracing new technologies and methods"
+          "title": "Manufacturing & Installation",
+          "description": "End-to-end delivery: fabrication, supply, and installation based on project requirements."
         },
         {
-          "title": "Reliability",
-          "description": "Delivering projects on time and within budget"
+          "title": "Specialized Equipment",
+          "description": "Metal forming and panel work (up to 5mm thickness as stated in the company materials)."
         }
       ]
     },
     "services": {
       "title": "Our Services",
-      "description": "Comprehensive construction solutions tailored to your needs",
-      "cta": "View All Services"
+      "description": "Integrated solutions for manufacturing and installing hangars, canopies, and prefabricated houses, including curved metal sheet work and metal panel fabrication based on your project needs.",
+      "cta": "Explore Services"
     },
     "timeline": {
-      "title": "Project Timeline",
-      "description": "Track our major projects and milestones",
-      "cta": "View Full Timeline"
+      "title": "Company Overview",
+      "description": "Founded in 2019, Elssanea has grown to deliver both factory-grade fabrication and on-site execution through mobile equipment and experienced teams.",
+      "cta": "View Details"
     },
     "featuredProjects": {
-      "title": "Featured Projects",
-      "description": "Explore some of our most impressive work",
-      "cta": "View All Projects"
+      "title": "Featured Work",
+      "description": "A selection of Elssanea projects in metal structures, hangars, and prefabricated units.",
+      "cta": "View All Work"
     },
     "testimonials": {
-      "title": "What Our Clients Say",
-      "description": "Hear from those who have experienced our quality service"
+      "title": "What Clients Say",
+      "description": "Client testimonials can be added once available."
     },
     "cta": {
-      "title": "Ready to Start Your Project?",
-      "description": "Contact us today for a free consultation",
+      "title": "Ready to start your project?",
+      "description": "Send your request and we’ll get back with a detailed quotation.",
       "button": "Request a Quote"
     }
   },
   "projects": {
-    "title": "Our Projects",
-    "description": "Explore our portfolio of completed and ongoing construction projects",
+    "title": "Our Work",
+    "description": "Browse examples of Elssanea’s manufacturing and on-site installation work.",
     "filters": {
-      "all": "All Projects",
-      "residential": "Residential",
-      "commercial": "Commercial",
-      "industrial": "Industrial",
-      "infrastructure": "Infrastructure"
+      "all": "All",
+      "residential": "Prefabricated Houses",
+      "commercial": "Hangars",
+      "industrial": "Metal Structures",
+      "infrastructure": "Canopies & Covers"
     },
     "details": {
       "client": "Client",
@@ -78,26 +78,26 @@
     }
   },
   "services": {
-    "title": "Our Services",
-    "description": "Comprehensive construction solutions for all your needs",
+    "title": "Services",
+    "description": "Manufacturing and installation services for metal structures and prefabricated solutions.",
     "categories": {
-      "residential": "Residential Construction",
-      "commercial": "Commercial Construction",
-      "industrial": "Industrial Construction",
-      "renovation": "Renovation & Remodeling",
-      "design": "Architectural Design",
-      "consultation": "Construction Consultation"
+      "residential": "Prefabricated Houses",
+      "commercial": "Hangars",
+      "industrial": "Curved Sheet Metal & Metal Structures",
+      "renovation": "Installation & Metal Covering Works",
+      "design": "Plan • Design • Build • Execute",
+      "consultation": "Site Inspection & Requirement Estimation"
     }
   },
   "timeline": {
-    "title": "Project Timeline",
-    "description": "Track our major projects and milestones over the years",
+    "title": "Company Overview",
+    "description": "Elssanea Company was established in 2019 and provides manufacturing and installation with the added advantage of moving factory equipment to the job site inside or outside Al-Zawiya.",
     "ongoing": "Ongoing",
     "completed": "Completed"
   },
   "quote": {
     "title": "Request a Quote",
-    "description": "Fill out the form below to request a quote for your project",
+    "description": "Fill out the form below to request a quote for your project (Hangars / Canopies / Prefabricated Houses / Metal Works).",
     "form": {
       "name": "Full Name",
       "email": "Email Address",
@@ -105,20 +105,20 @@
       "projectType": "Project Type",
       "description": "Project Description",
       "attachment": "Upload Attachments",
-      "attachmentHelp": "Upload blueprints, sketches, or any relevant documents (PDF, JPG, PNG)",
+      "attachmentHelp": "Upload drawings, photos, or any relevant documents (PDF, JPG, PNG)",
       "submit": "Submit Request",
-      "success": "Your quote request has been submitted successfully. We'll contact you soon!",
-      "error": "There was an error submitting your request. Please try again."
+      "success": "Your quote request has been submitted successfully. We will contact you soon!",
+      "error": "An error occurred while sending your request. Please try again."
     }
   },
   "contact": {
     "title": "Contact Us",
-    "description": "Get in touch with our team for inquiries or support",
+    "description": "Reach out for inquiries, support, or quotations.",
     "info": {
-      "address": "Libya, Tripoli",
-      "phone": "+218 92 8666 458",
-      "email": "contact@ebtkar.tech",
-      "hours": "Sunday - Thursday: 9:00 AM - 5:00 PM"
+      "address": "Libya, Al-Zawiya – Coastal Road (Joud Dayem)",
+      "phone": "0917339276 / 0915376902 / 0924301040 / 0925376902 / 0912154282",
+      "email": "elsanea20198@gmail.com",
+      "hours": "Not specified in the provided materials"
     },
     "form": {
       "name": "Your Name",
@@ -127,22 +127,22 @@
       "message": "Your Message",
       "submit": "Send Message",
       "success": "Your message has been sent successfully!",
-      "error": "There was an error sending your message. Please try again."
+      "error": "An error occurred while sending your message. Please try again."
     }
   },
   "footer": {
-    "company": "BuildMaster Construction",
-    "rights": "All Rights Reserved",
+    "company": "Elssanea Company",
+    "rights": "All rights reserved",
     "links": {
       "privacy": "Privacy Policy",
       "terms": "Terms of Service",
       "careers": "Careers"
     },
     "social": {
-      "facebook": "Facebook",
-      "twitter": "Twitter",
-      "instagram": "Instagram",
-      "linkedin": "LinkedIn"
+      "facebook": "/assanea2022",
+      "twitter": "—",
+      "instagram": "—",
+      "linkedin": "—"
     }
   }
 }

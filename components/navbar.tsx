@@ -17,6 +17,7 @@ import type { Locale } from "@/lib/i18n/settings";
 import { cn } from "@/lib/utils";
 import { LanguageSwitcher } from "./language-switcher";
 import { ThemeToggle } from "./theme-toggle";
+import Image from "next/image";
 
 interface NavbarProps {
   lang: Locale;
@@ -24,7 +25,7 @@ interface NavbarProps {
     home: string;
     projects: string;
     services: string;
-    timeline: string;
+    // timeline: string;
     quote: string;
     contact: string;
   };
@@ -39,16 +40,15 @@ export function Navbar({ lang, dictionary }: NavbarProps) {
     { href: `/${lang}`, label: dictionary.home },
     { href: `/${lang}/projects`, label: dictionary.projects },
     { href: `/${lang}/services`, label: dictionary.services },
-    { href: `/${lang}/timeline`, label: dictionary.timeline },
-    { href: `/${lang}/quote`, label: dictionary.quote },
+    // { href: `/${lang}/timeline`, label: dictionary.timeline },
+    // { href: `/${lang}/quote`, label: dictionary.quote },
     { href: `/${lang}/contact`, label: dictionary.contact },
   ];
 
   return (
-    <div className="flex h-16 container items-center justify-between w-full">
+    <div className="flex h-20 container items-center justify-between w-full">
       <Link href={`/${lang}`} className="flex items-center gap-2">
-        <Building className="h-6 w-6" />
-        <span className="font-bold text-lg">BuildMaster</span>
+        <Image src={"/logo.png"} alt="Logo" width={72} height={72} />
       </Link>
 
       <nav className="hidden md:flex items-center gap-6">
